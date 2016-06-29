@@ -66,7 +66,7 @@ standard deviation. The mean is initially set to 0 and the standard
 deviation to 1. The slider controls appear in the same figure as the
 subplots.
  
- ![](manipulate2.PNG)
+ ![](manipulate2.gif)
  
 Created by:
   Robert Perrotta
