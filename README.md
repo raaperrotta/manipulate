@@ -42,7 +42,7 @@ manipulate the frequency and phase offset of the second wave. Then does
 the same again, adding the slider controls to the existing slider
 figure.
  
- ![](manipulate1.png)
+ ![](manipulate1.PNG)
  
 ### Gaussian Distribution
  
@@ -66,7 +66,7 @@ standard deviation. The mean is initially set to 0 and the standard
 deviation to 1. The slider controls appear in the same figure as the
 subplots.
  
- ![](manipulate2.png)
+ ![](manipulate2.PNG)
  
 Created by:
   Robert Perrotta
