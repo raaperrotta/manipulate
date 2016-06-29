@@ -27,6 +27,8 @@ for details.
   
 ## Examples:
 
+### Sine Waves
+
 ```matlab
   x = 1:.001:10;
   gca, L = plot(1,1,1,1);
@@ -39,6 +41,10 @@ Plots the interference of two sine waves and allows the user to
 manipulate the frequency and phase offset of the second wave. Then does
 the same again, adding the slider controls to the existing slider
 figure.
+ 
+ ![](manipulate1.png)
+ 
+### Gaussian Distribution
  
  ```matlab
   x = linspace(-10,10,1e4);
@@ -59,6 +65,8 @@ separate subplots and allows the user to manipulate the mean and
 standard deviation. The mean is initially set to 0 and the standard
 deviation to 1. The slider controls appear in the same figure as the
 subplots.
+ 
+ ![](manipulate2.png)
  
 Created by:
   Robert Perrotta
