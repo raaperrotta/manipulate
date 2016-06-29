@@ -1,7 +1,7 @@
 # Manipulate
 MATLAB interactive function caller
 
-Similar to the Mathematica function Manipulate, this function creates a slider that calls a function whenever its value is updated. Great for interactive plotting.
+A very simple implementation after Mathematica's function [Manipulate](http://reference.wolfram.com/language/tutorial/IntroductionToManipulate.html), this function creates a slider that calls a function whenever its value is updated. Great for interactive plotting.
 
 `manipulate(@(ARGS)FUNC(ARGS),{LABEL,ARG_MIN,ARG_MAX,[DEFAULT]}...)`
 calls the function `func(ARGS)` and allows the user to control the
