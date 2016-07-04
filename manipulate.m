@@ -6,7 +6,7 @@ function varargout = manipulate(varargin)
 %   is initially set to ARG_MIN.
 %
 %   MANIPULATE expects one cell input per argument. All arguments must be
-%   scalars. Cells can also be of the form{LABEL,VALUES,[DEFAULT]} where
+%   scalars. Cells can also be of the form {LABEL,VALUES,[DEFAULT]} where
 %   VALUES is a 1D array containing allowed values of the argument.
 %
 %   H = MANIPULATE(...) returns the the slider handles.
@@ -21,6 +21,9 @@ function varargout = manipulate(varargin)
 %   MANIPULATE(...,'SliderStep',[SMALL BIG]) allows the user to set the
 %   step size of incremental slider increases and decreases. See UICONTROL
 %   for details.
+% 
+%   MANIPULATE(fig,...) adds the sliders to the bottom of the specified
+%   figure rather to their own, new, figure.
 % 
 % Examples:
 %   x = 1:.001:10;
